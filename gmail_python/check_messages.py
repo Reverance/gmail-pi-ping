@@ -4,7 +4,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(18,GPIO.OUT)
 
-g = gmail.login("amohabbat02@gmail.com","Hermes12")
+g = gmail.login(User,Pass)
 unread_messages = g.inbox().mail(unread=True)
 total_messages = 0
 
